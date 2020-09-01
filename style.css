@@ -17,6 +17,7 @@
 .main{
   display:flex;
   flex-direction: column;
+  padding: 8px 12px;
 }
 .main__hashtags ul {
   display:flex;
@@ -78,6 +79,7 @@
   color: grey;
   font-size: 13px;
   margin-bottom: 10px;
+  
 }
 .footer .footer__preview{
   display:flex;
@@ -100,6 +102,16 @@
 .footer .preview_detail li:last-child{
   font-size: 13px;
   color: grey;
+}
+.divider{
+  display:flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px){
+.divider{
+  display:flex;
+  flex-direction: row;
+}
 }
 
 
